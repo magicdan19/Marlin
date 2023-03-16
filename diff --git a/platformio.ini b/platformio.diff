@@ -1,0 +1,14 @@
+diff --git a/platformio.ini b/platformio.ini
+--- platformio.ini
++++ platformio.ini
+@@ -12,9 +12,9 @@
+ 
+ [platformio]
+ src_dir      = Marlin
+ boards_dir   = buildroot/share/PlatformIO/boards
+-default_envs = mega2560
++default_envs = BIGTREE_SKR_PRO
+ include_dir  = Marlin
+ extra_configs =
+     Marlin/config.ini
+     ini/avr.ini
